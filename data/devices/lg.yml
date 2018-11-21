@@ -830,9 +830,9 @@
       - TW_QCOM_RTC_FIX
     graphics_backends:
       - fbdev
-    brightness_path: /sys/devices/soc/900000.qcom\x2cmdss_mdp/900000.qcom\x2cmdss_mdp:qcom\x2cmdss_fb_primary/leds/lcd-backlight/brightness
-    max_brightness: 255
-    default_brightness: 149
+    brightness_path: /sys/devices/soc/c900000.qcom,mdss_mdp/c900000.qcom,mdss_mdp:qcom,mdss_fb_primary/leds/lcd_backlight/brightness
+    max_brightness: 511
+    default_brightness: 84
     pixel_format: RGBX_8888
     theme: portrait_hdpi
 
